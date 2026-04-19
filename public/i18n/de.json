@@ -739,8 +739,8 @@
           "TITLE": "Hack The Box",
           "DESCRIPTION": "Cyber-Meisterschaftsplattform mit anfängerfreundlichen Modulen und realen Herausforderungen"
         },
-        "PICOCTF": {
-          "TITLE": "picoCTF",
+        "CYLAB": {
+          "TITLE": "CyLab Security Academy",
           "DESCRIPTION": "Kostenloses Computersicherheits-Bildungsprogramm der Carnegie Mellon University"
         },
         "ROOTME": {

@@ -67,9 +67,9 @@ const learningPlatforms = [
     url: "https://hackthebox.com/",
   },
   {
-    titleKey: msg("RESOURCES.CYBER_SECURITY.LEARNING_PLATFORMS.PICOCTF.TITLE"),
+    titleKey: msg("RESOURCES.CYBER_SECURITY.LEARNING_PLATFORMS.CYLAB.TITLE"),
     descriptionKey: msg(
-      "RESOURCES.CYBER_SECURITY.LEARNING_PLATFORMS.PICOCTF.DESCRIPTION",
+      "RESOURCES.CYBER_SECURITY.LEARNING_PLATFORMS.CYLAB.DESCRIPTION",
     ),
     url: "https://cylabacademy.org/",
   },
