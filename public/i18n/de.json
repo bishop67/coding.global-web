@@ -158,6 +158,8 @@
       "RESOURCES_DEVOPS_DESCRIPTION": "DevOps-Praktiken und Werkzeuge",
       "RESOURCES_CYBER_SECURITY": "Cybersicherheit",
       "RESOURCES_CYBER_SECURITY_DESCRIPTION": "Best Practices und Anleitungen zur Sicherheit",
+      "RESOURCES_LIBRARY": "Bibliothek",
+      "RESOURCES_LIBRARY_DESCRIPTION": "Kostenlose E-Books, Paper und Kurse",
       "RESOURCES_AI_ASSISTANTS": "KI-Assistenten",
       "RESOURCES_AI_ASSISTANTS_DESCRIPTION": "Kostenlose KI-Werkzeuge für Programmierung und Produktivität",
       "RESOURCES_BEST_TOOLS": "Beste Tools",
@@ -435,7 +437,6 @@
       "FREE_AI_ASSISTANTS": "Kostenlose KI-Assistenten",
       "CODE_LIKE_A_PRO": "Programmieren wie ein Profi",
       "UTILITIES": "Werkzeuge",
-      "EBOOK_LIBRARIES": "E-Book-Bibliotheken",
       "DISCORD_TEXT_FORMATTING": "Discord Textformatierung"
     },
     "CATEGORIES": {
@@ -464,6 +465,10 @@
       "CYBER_SECURITY": {
         "NAME": "Cybersicherheit",
         "DESCRIPTION": "Best Practices für Sicherheit"
+      },
+      "LIBRARY": {
+        "NAME": "Bibliothek",
+        "DESCRIPTION": "E-Books, Paper, Doku und Kurse"
       }
     },
     "SECTIONS": {
@@ -482,10 +487,6 @@
       "UTILITIES": {
         "TITLE": "Werkzeuge",
         "DESCRIPTION": "Hilfreiche Tools und Dienste"
-      },
-      "EBOOK_LIBRARIES": {
-        "TITLE": "E-Book-Bibliotheken",
-        "DESCRIPTION": "Hier findest du E-Books, Lehrbücher und Paper — Domains von Schattenbibliotheken ändern sich oft, prüfe SLUM, wenn eine nicht erreichbar ist"
       },
       "DISCORD_TEXT_FORMATTING": {
         "TITLE": "Discord Textformatierung",
@@ -522,64 +523,6 @@
       "MAS_GENUINE_ISO": {
         "TITLE": "MAS Genuine ISO",
         "DESCRIPTION": "Originale Windows-Installationsmedien"
-      }
-    },
-    "EBOOK_LIBRARIES": {
-      "ANNAS_ARCHIVE": {
-        "TITLE": "Anna's Archive",
-        "DESCRIPTION": "Suchmaschine über LibGen, Z-Library, Sci-Hub und mehr"
-      },
-      "Z_LIBRARY": {
-        "TITLE": "Z-Library",
-        "DESCRIPTION": "Riesige E-Book-Bibliothek mit täglichen Gratis-Downloads"
-      },
-      "SCI_HUB": {
-        "TITLE": "Sci-Hub",
-        "DESCRIPTION": "Freier Zugang zu wissenschaftlichen Papern per DOI"
-      },
-      "SLUM": {
-        "TITLE": "SLUM",
-        "DESCRIPTION": "Uptime-Monitor mit funktionierenden Mirrors von Schattenbibliotheken"
-      },
-      "FREE_PROGRAMMING_BOOKS": {
-        "TITLE": "Free Programming Books",
-        "DESCRIPTION": "Durchsuchbare Liste legal kostenloser Programmierbücher"
-      },
-      "GOALKICKER": {
-        "TITLE": "GoalKicker",
-        "DESCRIPTION": "Kostenlose Programmier-Notizen aus Stack Overflow"
-      },
-      "GREEN_TEA_PRESS": {
-        "TITLE": "Green Tea Press",
-        "DESCRIPTION": "Kostenlose Bücher wie Think Python von Allen B. Downey"
-      },
-      "OPEN_LIBRARY": {
-        "TITLE": "Open Library",
-        "DESCRIPTION": "Leihe Millionen E-Books kostenlos aus"
-      },
-      "INTERNET_ARCHIVE": {
-        "TITLE": "Internet Archive",
-        "DESCRIPTION": "Kostenlose und ausleihbare Texte, Scans und alte Handbücher"
-      },
-      "PROJECT_GUTENBERG": {
-        "TITLE": "Project Gutenberg",
-        "DESCRIPTION": "Über 70.000 gemeinfreie E-Books"
-      },
-      "STANDARD_EBOOKS": {
-        "TITLE": "Standard Ebooks",
-        "DESCRIPTION": "Schön formatierte gemeinfreie E-Books"
-      },
-      "OPENSTAX": {
-        "TITLE": "OpenStax",
-        "DESCRIPTION": "Kostenlose, begutachtete Lehrbücher für die Uni"
-      },
-      "OPEN_TEXTBOOK_LIBRARY": {
-        "TITLE": "Open Textbook Library",
-        "DESCRIPTION": "Offen lizenzierte Lehrbücher, auch für Informatik"
-      },
-      "LIBBY": {
-        "TITLE": "Libby",
-        "DESCRIPTION": "Leihe E-Books und Hörbücher mit deinem Bibliotheksausweis"
       }
     },
     "CODE_RESOURCES": {
@@ -969,6 +912,155 @@
       "UNOROUTER_PROMO": {
         "TITLE": "Alle diese Modelle aus einer API?",
         "DESCRIPTION": "UnoRouter bietet dir einen einzigen Endpunkt mit intelligentem Routing, automatischem Failover und 200+ Modellen von 35+ Anbietern. Abonnement für besseren Preis oder Pay-as-you-go, ohne pro Anbieter ein Konto anlegen zu müssen."
+      }
+    },
+    "LIBRARY": {
+      "TITLE": "Bibliothek",
+      "DESCRIPTION": "Bücher, Paper, Doku und Kurse zum Lernen, alles kostenlos lesbar",
+      "META": {
+        "TITLE": "Bibliothek - Coding Global",
+        "DESCRIPTION": "Kostenlose E-Books, Programmierbücher, wissenschaftliche Paper, Dokumentation und Informatikkurse",
+        "KEYWORDS": "E-Books, Programmierbücher, kostenlose Bücher, wissenschaftliche Paper, Lehrbücher, Dokumentation, Kurse, Bibliothek"
+      },
+      "EBOOKS": {
+        "TITLE": "E-Books",
+        "DESCRIPTION": "Schattenbibliotheken mit Millionen von Büchern. Domains ändern sich oft, prüfe SLUM, wenn eine nicht erreichbar ist.",
+        "ANNAS_ARCHIVE": {
+          "TITLE": "Anna's Archive",
+          "DESCRIPTION": "Suchmaschine über LibGen, Z-Library, Sci-Hub und mehr"
+        },
+        "Z_LIBRARY": {
+          "TITLE": "Z-Library",
+          "DESCRIPTION": "Riesige E-Book-Bibliothek mit täglichen Gratis-Downloads"
+        },
+        "SLUM": {
+          "TITLE": "SLUM",
+          "DESCRIPTION": "Uptime-Monitor mit funktionierenden Mirrors von Schattenbibliotheken"
+        }
+      },
+      "PROGRAMMING_BOOKS": {
+        "TITLE": "Programmierbücher",
+        "DESCRIPTION": "Komplette Programmierbücher, kostenlos online lesbar",
+        "FREE_PROGRAMMING_BOOKS": {
+          "TITLE": "Free Programming Books",
+          "DESCRIPTION": "Durchsuchbare Liste mit tausenden legal kostenlosen Programmierbüchern"
+        },
+        "GOALKICKER": {
+          "TITLE": "GoalKicker",
+          "DESCRIPTION": "Kostenlose Programmier-Notizen aus Stack Overflow"
+        },
+        "GREEN_TEA_PRESS": {
+          "TITLE": "Green Tea Press",
+          "DESCRIPTION": "Kostenlose Bücher wie Think Python von Allen B. Downey"
+        },
+        "ELOQUENT_JAVASCRIPT": {
+          "TITLE": "Eloquent JavaScript",
+          "DESCRIPTION": "Moderne Einführung in JavaScript und Programmierung"
+        },
+        "AUTOMATE_THE_BORING_STUFF": {
+          "TITLE": "Automate the Boring Stuff",
+          "DESCRIPTION": "Praxisnahes Python für absolute Anfänger"
+        },
+        "RUST_BOOK": {
+          "TITLE": "The Rust Book",
+          "DESCRIPTION": "Der offizielle Leitfaden zur Programmiersprache Rust"
+        },
+        "PRO_GIT": {
+          "TITLE": "Pro Git",
+          "DESCRIPTION": "Alles über Git, von den Grundlagen bis zu den Interna"
+        }
+      },
+      "FREE_BOOKS": {
+        "TITLE": "Kostenlose Bücher & Lehrbücher",
+        "DESCRIPTION": "Legale Bibliotheken für gemeinfreie Bücher, Lehrbücher und Ausleihe",
+        "OPEN_LIBRARY": {
+          "TITLE": "Open Library",
+          "DESCRIPTION": "Leihe Millionen E-Books kostenlos aus"
+        },
+        "INTERNET_ARCHIVE": {
+          "TITLE": "Internet Archive",
+          "DESCRIPTION": "Kostenlose und ausleihbare Texte, Scans und alte Handbücher"
+        },
+        "PROJECT_GUTENBERG": {
+          "TITLE": "Project Gutenberg",
+          "DESCRIPTION": "Über 70.000 gemeinfreie E-Books"
+        },
+        "STANDARD_EBOOKS": {
+          "TITLE": "Standard Ebooks",
+          "DESCRIPTION": "Schön formatierte gemeinfreie E-Books"
+        },
+        "OPENSTAX": {
+          "TITLE": "OpenStax",
+          "DESCRIPTION": "Kostenlose, begutachtete Lehrbücher für die Uni"
+        },
+        "OPEN_TEXTBOOK_LIBRARY": {
+          "TITLE": "Open Textbook Library",
+          "DESCRIPTION": "Offen lizenzierte Lehrbücher, auch für Informatik"
+        },
+        "LIBBY": {
+          "TITLE": "Libby",
+          "DESCRIPTION": "Leihe E-Books und Hörbücher mit deinem Bibliotheksausweis"
+        },
+        "LIBRIVOX": {
+          "TITLE": "LibriVox",
+          "DESCRIPTION": "Kostenlose gemeinfreie Hörbücher, von Freiwilligen gelesen"
+        }
+      },
+      "RESEARCH_PAPERS": {
+        "TITLE": "Wissenschaftliche Paper",
+        "DESCRIPTION": "Wissenschaftliche Paper, Preprints und Open-Access-Forschung",
+        "ARXIV": {
+          "TITLE": "arXiv",
+          "DESCRIPTION": "Kostenlose Preprints aus Informatik, Mathematik und Physik"
+        },
+        "SEMANTIC_SCHOLAR": {
+          "TITLE": "Semantic Scholar",
+          "DESCRIPTION": "KI-gestützte Suche über mehr als 200 Mio. Paper"
+        },
+        "CORE": {
+          "TITLE": "CORE",
+          "DESCRIPTION": "Die größte Sammlung von Open-Access-Papern"
+        },
+        "SCI_HUB": {
+          "TITLE": "Sci-Hub",
+          "DESCRIPTION": "Freier Zugang zu Paywall-Papern per DOI"
+        }
+      },
+      "DOCUMENTATION": {
+        "TITLE": "Doku & Spickzettel",
+        "DESCRIPTION": "Schnelle Referenzen für nebenbei beim Programmieren",
+        "DEVDOCS": {
+          "TITLE": "DevDocs",
+          "DESCRIPTION": "Schnelle, offline nutzbare Doku für hunderte APIs"
+        },
+        "MDN": {
+          "TITLE": "MDN Web Docs",
+          "DESCRIPTION": "Die Referenz für HTML, CSS und JavaScript"
+        },
+        "TLDR": {
+          "TITLE": "tldr pages",
+          "DESCRIPTION": "Vereinfachte Man-Pages mit Beispielen"
+        },
+        "CHEAT_SH": {
+          "TITLE": "cheat.sh",
+          "DESCRIPTION": "Spickzettel für jede Sprache, direkt per curl"
+        }
+      },
+      "COURSES": {
+        "TITLE": "Kurse & Vorlesungen",
+        "DESCRIPTION": "Kostenlose Informatikkurse auf Uni-Niveau",
+        "CS50": {
+          "TITLE": "CS50",
+          "DESCRIPTION": "Harvards Einführung in die Informatik"
+        },
+        "MIT_OCW": {
+          "TITLE": "MIT OpenCourseWare",
+          "DESCRIPTION": "Vorlesungsnotizen, Videos und Prüfungen vom MIT"
+        },
+        "TEACH_YOURSELF_CS": {
+          "TITLE": "Teach Yourself CS",
+          "DESCRIPTION": "Ein Selbstlern-Lehrplan mit den besten Büchern pro Thema"
+        }
       }
     },
     "VIBE_CODING": {
