@@ -435,6 +435,7 @@
       "FREE_AI_ASSISTANTS": "Kostenlose KI-Assistenten",
       "CODE_LIKE_A_PRO": "Programmieren wie ein Profi",
       "UTILITIES": "Werkzeuge",
+      "EBOOK_LIBRARIES": "E-Book-Bibliotheken",
       "DISCORD_TEXT_FORMATTING": "Discord Textformatierung"
     },
     "CATEGORIES": {
@@ -482,6 +483,10 @@
         "TITLE": "Werkzeuge",
         "DESCRIPTION": "Hilfreiche Tools und Dienste"
       },
+      "EBOOK_LIBRARIES": {
+        "TITLE": "E-Book-Bibliotheken",
+        "DESCRIPTION": "Hier findest du E-Books, Lehrbücher und Paper — Domains von Schattenbibliotheken ändern sich oft, prüfe SLUM, wenn eine nicht erreichbar ist"
+      },
       "DISCORD_TEXT_FORMATTING": {
         "TITLE": "Discord Textformatierung",
         "DESCRIPTION": "Lerne wie du deine Nachrichten in Discord formatierst"
@@ -517,6 +522,64 @@
       "MAS_GENUINE_ISO": {
         "TITLE": "MAS Genuine ISO",
         "DESCRIPTION": "Originale Windows-Installationsmedien"
+      }
+    },
+    "EBOOK_LIBRARIES": {
+      "ANNAS_ARCHIVE": {
+        "TITLE": "Anna's Archive",
+        "DESCRIPTION": "Suchmaschine über LibGen, Z-Library, Sci-Hub und mehr"
+      },
+      "Z_LIBRARY": {
+        "TITLE": "Z-Library",
+        "DESCRIPTION": "Riesige E-Book-Bibliothek mit täglichen Gratis-Downloads"
+      },
+      "SCI_HUB": {
+        "TITLE": "Sci-Hub",
+        "DESCRIPTION": "Freier Zugang zu wissenschaftlichen Papern per DOI"
+      },
+      "SLUM": {
+        "TITLE": "SLUM",
+        "DESCRIPTION": "Uptime-Monitor mit funktionierenden Mirrors von Schattenbibliotheken"
+      },
+      "FREE_PROGRAMMING_BOOKS": {
+        "TITLE": "Free Programming Books",
+        "DESCRIPTION": "Durchsuchbare Liste legal kostenloser Programmierbücher"
+      },
+      "GOALKICKER": {
+        "TITLE": "GoalKicker",
+        "DESCRIPTION": "Kostenlose Programmier-Notizen aus Stack Overflow"
+      },
+      "GREEN_TEA_PRESS": {
+        "TITLE": "Green Tea Press",
+        "DESCRIPTION": "Kostenlose Bücher wie Think Python von Allen B. Downey"
+      },
+      "OPEN_LIBRARY": {
+        "TITLE": "Open Library",
+        "DESCRIPTION": "Leihe Millionen E-Books kostenlos aus"
+      },
+      "INTERNET_ARCHIVE": {
+        "TITLE": "Internet Archive",
+        "DESCRIPTION": "Kostenlose und ausleihbare Texte, Scans und alte Handbücher"
+      },
+      "PROJECT_GUTENBERG": {
+        "TITLE": "Project Gutenberg",
+        "DESCRIPTION": "Über 70.000 gemeinfreie E-Books"
+      },
+      "STANDARD_EBOOKS": {
+        "TITLE": "Standard Ebooks",
+        "DESCRIPTION": "Schön formatierte gemeinfreie E-Books"
+      },
+      "OPENSTAX": {
+        "TITLE": "OpenStax",
+        "DESCRIPTION": "Kostenlose, begutachtete Lehrbücher für die Uni"
+      },
+      "OPEN_TEXTBOOK_LIBRARY": {
+        "TITLE": "Open Textbook Library",
+        "DESCRIPTION": "Offen lizenzierte Lehrbücher, auch für Informatik"
+      },
+      "LIBBY": {
+        "TITLE": "Libby",
+        "DESCRIPTION": "Leihe E-Books und Hörbücher mit deinem Bibliotheksausweis"
       }
     },
     "CODE_RESOURCES": {

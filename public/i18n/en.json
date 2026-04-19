@@ -435,6 +435,7 @@
       "FREE_AI_ASSISTANTS": "Free AI Assistants",
       "CODE_LIKE_A_PRO": "Code Like a Pro",
       "UTILITIES": "Utilities",
+      "EBOOK_LIBRARIES": "Ebook Libraries",
       "DISCORD_TEXT_FORMATTING": "Discord Text Formatting"
     },
     "CATEGORIES": {
@@ -486,6 +487,10 @@
         "TITLE": "Utilities",
         "DESCRIPTION": "Helpful tools and services"
       },
+      "EBOOK_LIBRARIES": {
+        "TITLE": "Ebook Libraries",
+        "DESCRIPTION": "Places to find ebooks, textbooks and papers — shadow library domains change often, check SLUM if one is down"
+      },
       "DISCORD_TEXT_FORMATTING": {
         "TITLE": "Discord Text Formatting",
         "DESCRIPTION": "Learn how to format your messages in Discord"
@@ -521,6 +526,64 @@
       "MAS_GENUINE_ISO": {
         "TITLE": "MAS Genuine ISO",
         "DESCRIPTION": "Genuine Windows installation media"
+      }
+    },
+    "EBOOK_LIBRARIES": {
+      "ANNAS_ARCHIVE": {
+        "TITLE": "Anna's Archive",
+        "DESCRIPTION": "Search engine across LibGen, Z-Library, Sci-Hub and more"
+      },
+      "Z_LIBRARY": {
+        "TITLE": "Z-Library",
+        "DESCRIPTION": "Huge ebook library with daily free downloads"
+      },
+      "SCI_HUB": {
+        "TITLE": "Sci-Hub",
+        "DESCRIPTION": "Free access to research papers by DOI"
+      },
+      "SLUM": {
+        "TITLE": "SLUM",
+        "DESCRIPTION": "Uptime monitor listing working shadow library mirrors"
+      },
+      "FREE_PROGRAMMING_BOOKS": {
+        "TITLE": "Free Programming Books",
+        "DESCRIPTION": "Searchable list of legally free programming books"
+      },
+      "GOALKICKER": {
+        "TITLE": "GoalKicker",
+        "DESCRIPTION": "Free programming notes compiled from Stack Overflow"
+      },
+      "GREEN_TEA_PRESS": {
+        "TITLE": "Green Tea Press",
+        "DESCRIPTION": "Free books like Think Python by Allen B. Downey"
+      },
+      "OPEN_LIBRARY": {
+        "TITLE": "Open Library",
+        "DESCRIPTION": "Borrow millions of ebooks for free"
+      },
+      "INTERNET_ARCHIVE": {
+        "TITLE": "Internet Archive",
+        "DESCRIPTION": "Free and borrowable texts, scans and old manuals"
+      },
+      "PROJECT_GUTENBERG": {
+        "TITLE": "Project Gutenberg",
+        "DESCRIPTION": "70,000+ free public domain ebooks"
+      },
+      "STANDARD_EBOOKS": {
+        "TITLE": "Standard Ebooks",
+        "DESCRIPTION": "Beautifully formatted public domain ebooks"
+      },
+      "OPENSTAX": {
+        "TITLE": "OpenStax",
+        "DESCRIPTION": "Free peer-reviewed college textbooks"
+      },
+      "OPEN_TEXTBOOK_LIBRARY": {
+        "TITLE": "Open Textbook Library",
+        "DESCRIPTION": "Openly licensed textbooks, including computer science"
+      },
+      "LIBBY": {
+        "TITLE": "Libby",
+        "DESCRIPTION": "Borrow ebooks and audiobooks with your library card"
       }
     },
     "CODE_RESOURCES": {

@@ -120,7 +120,7 @@ const roadmapSteps = [
   {
     titleKey: msg("RESOURCES.CYBER_SECURITY.ROADMAP.BOUNTY.TITLE"),
     descriptionKey: msg("RESOURCES.CYBER_SECURITY.ROADMAP.BOUNTY.DESC"),
-    url: "https://www.hackerone.com/vulnerability-management/what-are-bug-bounties-how-do-they-work-examples",
+    url: "https://www.hackerone.com/blog/what-are-bug-bounties-and-how-do-they-work",
     step: 2,
   },
   {

@@ -53,6 +53,11 @@ const toc: TOCItemType[] = [
   },
   { url: "#utilities", title: msg("RESOURCES.TOC.UTILITIES"), depth: 2 },
   {
+    url: "#ebook-libraries",
+    title: msg("RESOURCES.TOC.EBOOK_LIBRARIES"),
+    depth: 2,
+  },
+  {
     url: "#discord-text-formatting",
     title: msg("RESOURCES.TOC.DISCORD_TEXT_FORMATTING"),
     depth: 2,
@@ -131,6 +136,79 @@ const utilityLinks = [
     titleKey: msg("RESOURCES.UTILITY_LINKS.MAS_GENUINE_ISO.TITLE"),
     descriptionKey: msg("RESOURCES.UTILITY_LINKS.MAS_GENUINE_ISO.DESCRIPTION"),
     url: "https://massgrave.dev/genuine-installation-media",
+  },
+];
+
+const ebookLibraries = [
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.ANNAS_ARCHIVE.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.ANNAS_ARCHIVE.DESCRIPTION"),
+    url: "https://annas-archive.gl/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.Z_LIBRARY.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.Z_LIBRARY.DESCRIPTION"),
+    url: "https://z-library.sk/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.SCI_HUB.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.SCI_HUB.DESCRIPTION"),
+    url: "https://sci-hub.ru/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.SLUM.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.SLUM.DESCRIPTION"),
+    url: "https://open-slum.org/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.FREE_PROGRAMMING_BOOKS.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.FREE_PROGRAMMING_BOOKS.DESCRIPTION"),
+    url: "https://ebookfoundation.github.io/free-programming-books-search/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.GOALKICKER.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.GOALKICKER.DESCRIPTION"),
+    url: "https://goalkicker.com/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.GREEN_TEA_PRESS.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.GREEN_TEA_PRESS.DESCRIPTION"),
+    url: "https://greenteapress.com/wp/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.OPEN_LIBRARY.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.OPEN_LIBRARY.DESCRIPTION"),
+    url: "https://openlibrary.org/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.INTERNET_ARCHIVE.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.INTERNET_ARCHIVE.DESCRIPTION"),
+    url: "https://archive.org/details/texts",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.PROJECT_GUTENBERG.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.PROJECT_GUTENBERG.DESCRIPTION"),
+    url: "https://www.gutenberg.org/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.STANDARD_EBOOKS.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.STANDARD_EBOOKS.DESCRIPTION"),
+    url: "https://standardebooks.org/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.OPENSTAX.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.OPENSTAX.DESCRIPTION"),
+    url: "https://openstax.org/",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.OPEN_TEXTBOOK_LIBRARY.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.OPEN_TEXTBOOK_LIBRARY.DESCRIPTION"),
+    url: "https://open.umn.edu/opentextbooks",
+  },
+  {
+    titleKey: msg("RESOURCES.EBOOK_LIBRARIES.LIBBY.TITLE"),
+    descriptionKey: msg("RESOURCES.EBOOK_LIBRARIES.LIBBY.DESCRIPTION"),
+    url: "https://libbyapp.com/",
   },
 ];
 
@@ -457,6 +535,44 @@ export function Resources() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
+                whileHover={{ y: -4 }}
+                whileTap={{ scale: 0.98 }}
+              >
+                <Card className="hover:bg-muted/50 h-full transition-colors">
+                  <CardHeader className="pb-2">
+                    <CardTitle className="flex items-center gap-2 text-base">
+                      {t(link.titleKey)}
+                      <ExternalLink className="ml-auto h-4 w-4 opacity-0 transition-opacity group-hover:opacity-100" />
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardDescription>{t(link.descriptionKey)}</CardDescription>
+                  </CardContent>
+                </Card>
+              </motion.a>
+            ))}
+          </div>
+        </AnimatedSection>
+
+        {/* Ebook Libraries */}
+        <AnimatedSection id="ebook-libraries" className="scroll-mt-20">
+          <h2 className="mb-2 text-xl font-semibold">
+            {t("RESOURCES.SECTIONS.EBOOK_LIBRARIES.TITLE")}
+          </h2>
+          <p className="text-muted-foreground mb-4 text-sm">
+            {t("RESOURCES.SECTIONS.EBOOK_LIBRARIES.DESCRIPTION")}
+          </p>
+          <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+            {ebookLibraries.map((link, index) => (
+              <motion.a
+                key={link.url}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: index * 0.05 }}
                 whileHover={{ y: -4 }}
                 whileTap={{ scale: 0.98 }}
               >
