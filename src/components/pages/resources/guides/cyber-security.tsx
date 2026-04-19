@@ -71,7 +71,7 @@ const learningPlatforms = [
     descriptionKey: msg(
       "RESOURCES.CYBER_SECURITY.LEARNING_PLATFORMS.PICOCTF.DESCRIPTION",
     ),
-    url: "https://www.picoctf.org/",
+    url: "https://cylabacademy.org/",
   },
   {
     titleKey: msg("RESOURCES.CYBER_SECURITY.LEARNING_PLATFORMS.ROOTME.TITLE"),
