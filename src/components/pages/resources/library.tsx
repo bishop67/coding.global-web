@@ -142,6 +142,13 @@ const sections = [
         ),
         url: "https://codersguild.net/books",
       },
+      {
+        titleKey: msg("RESOURCES.LIBRARY.PROGRAMMING_BOOKS.IT_EBOOKS.TITLE"),
+        descriptionKey: msg(
+          "RESOURCES.LIBRARY.PROGRAMMING_BOOKS.IT_EBOOKS.DESCRIPTION",
+        ),
+        url: "https://it-ebooks.dev/",
+      },
     ],
   },
   {
@@ -296,6 +303,11 @@ const sections = [
           "RESOURCES.LIBRARY.COURSES.TEACH_YOURSELF_CS.DESCRIPTION",
         ),
         url: "https://teachyourselfcs.com/",
+      },
+      {
+        titleKey: msg("RESOURCES.LIBRARY.COURSES.OSSU.TITLE"),
+        descriptionKey: msg("RESOURCES.LIBRARY.COURSES.OSSU.DESCRIPTION"),
+        url: "https://cs.ossu.dev/",
       },
     ],
   },

@@ -976,6 +976,10 @@
         "CODERS_GUILD": {
           "TITLE": "Coders Guild",
           "DESCRIPTION": "Catalog of programming books to read online or as PDF"
+        },
+        "IT_EBOOKS": {
+          "TITLE": "IT eBooks",
+          "DESCRIPTION": "Open-licensed IT books, tutorials and source code"
         }
       },
       "FREE_BOOKS": {
@@ -1068,6 +1072,10 @@
         "TEACH_YOURSELF_CS": {
           "TITLE": "Teach Yourself CS",
           "DESCRIPTION": "A self-study curriculum with the best books per topic"
+        },
+        "OSSU": {
+          "TITLE": "OSSU Computer Science",
+          "DESCRIPTION": "A complete free CS degree path from online courses"
         }
       }
     },

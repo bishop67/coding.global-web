@@ -972,6 +972,10 @@
         "CODERS_GUILD": {
           "TITLE": "Coders Guild",
           "DESCRIPTION": "Katalog mit Programmierbüchern zum Online-Lesen oder als PDF"
+        },
+        "IT_EBOOKS": {
+          "TITLE": "IT eBooks",
+          "DESCRIPTION": "Offen lizenzierte IT-Bücher, Tutorials und Quellcode"
         }
       },
       "FREE_BOOKS": {
@@ -1064,6 +1068,10 @@
         "TEACH_YOURSELF_CS": {
           "TITLE": "Teach Yourself CS",
           "DESCRIPTION": "Ein Selbstlern-Lehrplan mit den besten Büchern pro Thema"
+        },
+        "OSSU": {
+          "TITLE": "OSSU Computer Science",
+          "DESCRIPTION": "Ein kompletter kostenloser Informatik-Lehrplan aus Onlinekursen"
         }
       }
     },
