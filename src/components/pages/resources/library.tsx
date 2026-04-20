@@ -135,6 +135,13 @@ const sections = [
         ),
         url: "https://git-scm.com/book/en/v2",
       },
+      {
+        titleKey: msg("RESOURCES.LIBRARY.PROGRAMMING_BOOKS.CODERS_GUILD.TITLE"),
+        descriptionKey: msg(
+          "RESOURCES.LIBRARY.PROGRAMMING_BOOKS.CODERS_GUILD.DESCRIPTION",
+        ),
+        url: "https://codersguild.net/books",
+      },
     ],
   },
   {

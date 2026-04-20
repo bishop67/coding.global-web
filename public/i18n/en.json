@@ -972,6 +972,10 @@
         "PRO_GIT": {
           "TITLE": "Pro Git",
           "DESCRIPTION": "Everything about Git, from basics to internals"
+        },
+        "CODERS_GUILD": {
+          "TITLE": "Coders Guild",
+          "DESCRIPTION": "Catalog of programming books to read online or as PDF"
         }
       },
       "FREE_BOOKS": {
