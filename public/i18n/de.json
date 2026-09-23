@@ -458,6 +458,10 @@
         "NAME": "Python",
         "DESCRIPTION": "Data Science & Automatisierung"
       },
+      "AI_ASSISTANTS": {
+        "NAME": "KI-Assistenten",
+        "DESCRIPTION": "Kostenlose KI-Tools für Coding & Produktivität"
+      },
       "VIBE_CODING": {
         "NAME": "Vibe Coding",
         "DESCRIPTION": "Flow-Zustand & Produktivität"
