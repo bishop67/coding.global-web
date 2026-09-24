@@ -13,66 +13,7 @@ import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { ResourceFooter } from "../../layout/resources/resource-footer";
 
-const toc: TOCItemType[] = [
-  {
-    url: "#ebooks",
-    title: msg("RESOURCES.LIBRARY.EBOOKS.TITLE"),
-    depth: 2,
-  },
-  {
-    url: "#programming-books",
-    title: msg("RESOURCES.LIBRARY.PROGRAMMING_BOOKS.TITLE"),
-    depth: 2,
-  },
-  {
-    url: "#free-books",
-    title: msg("RESOURCES.LIBRARY.FREE_BOOKS.TITLE"),
-    depth: 2,
-  },
-  {
-    url: "#research-papers",
-    title: msg("RESOURCES.LIBRARY.RESEARCH_PAPERS.TITLE"),
-    depth: 2,
-  },
-  {
-    url: "#documentation",
-    title: msg("RESOURCES.LIBRARY.DOCUMENTATION.TITLE"),
-    depth: 2,
-  },
-  {
-    url: "#courses",
-    title: msg("RESOURCES.LIBRARY.COURSES.TITLE"),
-    depth: 2,
-  },
-];
-
-export const libraryTOC = createTOC(toc);
-
 const sections = [
-  {
-    id: "ebooks",
-    titleKey: msg("RESOURCES.LIBRARY.EBOOKS.TITLE"),
-    descriptionKey: msg("RESOURCES.LIBRARY.EBOOKS.DESCRIPTION"),
-    items: [
-      {
-        titleKey: msg("RESOURCES.LIBRARY.EBOOKS.ANNAS_ARCHIVE.TITLE"),
-        descriptionKey: msg(
-          "RESOURCES.LIBRARY.EBOOKS.ANNAS_ARCHIVE.DESCRIPTION",
-        ),
-        url: "https://annas-archive.gl/",
-      },
-      {
-        titleKey: msg("RESOURCES.LIBRARY.EBOOKS.Z_LIBRARY.TITLE"),
-        descriptionKey: msg("RESOURCES.LIBRARY.EBOOKS.Z_LIBRARY.DESCRIPTION"),
-        url: "https://z-library.sk/",
-      },
-      {
-        titleKey: msg("RESOURCES.LIBRARY.EBOOKS.SLUM.TITLE"),
-        descriptionKey: msg("RESOURCES.LIBRARY.EBOOKS.SLUM.DESCRIPTION"),
-        url: "https://open-slum.org/",
-      },
-    ],
-  },
   {
     id: "programming-books",
     titleKey: msg("RESOURCES.LIBRARY.PROGRAMMING_BOOKS.TITLE"),
@@ -242,13 +183,6 @@ const sections = [
         ),
         url: "https://core.ac.uk/",
       },
-      {
-        titleKey: msg("RESOURCES.LIBRARY.RESEARCH_PAPERS.SCI_HUB.TITLE"),
-        descriptionKey: msg(
-          "RESOURCES.LIBRARY.RESEARCH_PAPERS.SCI_HUB.DESCRIPTION",
-        ),
-        url: "https://sci-hub.ru/",
-      },
     ],
   },
   {
@@ -312,6 +246,16 @@ const sections = [
     ],
   },
 ];
+
+export const libraryTOC = createTOC(
+  sections.map(
+    (section): TOCItemType => ({
+      url: `#${section.id}`,
+      title: section.titleKey,
+      depth: 2,
+    }),
+  ),
+);
 
 export function Library() {
   const t = useTranslations();

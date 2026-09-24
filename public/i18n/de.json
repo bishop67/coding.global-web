@@ -926,22 +926,6 @@
         "DESCRIPTION": "Kostenlose E-Books, Programmierbücher, wissenschaftliche Paper, Dokumentation und Informatikkurse",
         "KEYWORDS": "E-Books, Programmierbücher, kostenlose Bücher, wissenschaftliche Paper, Lehrbücher, Dokumentation, Kurse, Bibliothek"
       },
-      "EBOOKS": {
-        "TITLE": "E-Books",
-        "DESCRIPTION": "Schattenbibliotheken mit Millionen von Büchern. Domains ändern sich oft, prüfe SLUM, wenn eine nicht erreichbar ist.",
-        "ANNAS_ARCHIVE": {
-          "TITLE": "Anna's Archive",
-          "DESCRIPTION": "Suchmaschine über LibGen, Z-Library, Sci-Hub und mehr"
-        },
-        "Z_LIBRARY": {
-          "TITLE": "Z-Library",
-          "DESCRIPTION": "Riesige E-Book-Bibliothek mit täglichen Gratis-Downloads"
-        },
-        "SLUM": {
-          "TITLE": "SLUM",
-          "DESCRIPTION": "Uptime-Monitor mit funktionierenden Mirrors von Schattenbibliotheken"
-        }
-      },
       "PROGRAMMING_BOOKS": {
         "TITLE": "Programmierbücher",
         "DESCRIPTION": "Komplette Programmierbücher, kostenlos online lesbar",
@@ -1032,10 +1016,6 @@
         "CORE": {
           "TITLE": "CORE",
           "DESCRIPTION": "Die größte Sammlung von Open-Access-Papern"
-        },
-        "SCI_HUB": {
-          "TITLE": "Sci-Hub",
-          "DESCRIPTION": "Freier Zugang zu Paywall-Papern per DOI"
         }
       },
       "DOCUMENTATION": {

@@ -926,22 +926,6 @@
         "DESCRIPTION": "Free ebooks, programming books, research papers, documentation and computer science courses",
         "KEYWORDS": "ebooks, programming books, free books, research papers, textbooks, documentation, courses, library"
       },
-      "EBOOKS": {
-        "TITLE": "Ebooks",
-        "DESCRIPTION": "Shadow libraries with millions of books. Domains change often, check SLUM if one is down.",
-        "ANNAS_ARCHIVE": {
-          "TITLE": "Anna's Archive",
-          "DESCRIPTION": "Search engine across LibGen, Z-Library, Sci-Hub and more"
-        },
-        "Z_LIBRARY": {
-          "TITLE": "Z-Library",
-          "DESCRIPTION": "Huge ebook library with daily free downloads"
-        },
-        "SLUM": {
-          "TITLE": "SLUM",
-          "DESCRIPTION": "Uptime monitor listing working shadow library mirrors"
-        }
-      },
       "PROGRAMMING_BOOKS": {
         "TITLE": "Programming Books",
         "DESCRIPTION": "Full programming books, free to read online",
@@ -1032,10 +1016,6 @@
         "CORE": {
           "TITLE": "CORE",
           "DESCRIPTION": "The largest collection of open access papers"
-        },
-        "SCI_HUB": {
-          "TITLE": "Sci-Hub",
-          "DESCRIPTION": "Free access to paywalled papers by DOI"
         }
       },
       "DOCUMENTATION": {
